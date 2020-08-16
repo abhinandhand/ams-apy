@@ -9,7 +9,7 @@
 
     <div v-show="!isLoading" class="layout">
       <Header></Header>
-      <Navbar/>
+      <Menubar/>
       <Nuxt />
       <h6>footer</h6>
     </div>
@@ -23,10 +23,11 @@
 </template>
 <script>
 import Header from "@/components/templates/Header.vue";
-import Navbar from '@/components/templates/Navbar.vue';
+import Menubar from '@/components/templates/Menubar.vue';
 export default {
   components: {
-    Header
+    Header,
+    Menubar
   },
   data() {
     return {
