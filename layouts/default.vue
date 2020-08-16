@@ -35,7 +35,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.isLoading = false;
-    }, 500);
+    }, 2000);
   }
 };
 </script>
