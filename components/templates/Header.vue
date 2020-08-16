@@ -13,7 +13,7 @@
             <img
               width="245px"
               class="logo-color"
-              src="~/assets/images/icons/brand-6.svg"
+              src="~/assets/images/icons/brand-7.svg"
               alt=""
             />
           </a>
