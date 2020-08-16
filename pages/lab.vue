@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="text-center"> Recreational & Medical Marijuana</h1>
+      <h1 class="text-center"> Lab</h1>
       </div>
+    
   </div>
 </template>
 

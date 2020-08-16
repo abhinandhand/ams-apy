@@ -29,13 +29,15 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/css/main.scss'
+    '~/assets/scss/theme.scss',
+    '~/assets/scss/main.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    "~/plugins/i18n.js"
   ],
   /*
   ** Auto import components
