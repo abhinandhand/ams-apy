@@ -17,7 +17,7 @@ export default ({ app }) => {
     // Associate each locale to a content file    
     messages: {
       en: require("~/static/lang/en.json"),
-      fr: require("~/static/lang/jp.json")
+      jp: require("~/static/lang/jp.json")
     }
   });
 };

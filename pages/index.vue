@@ -1,13 +1,16 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="text-center"> Recreational & Medical Marijuana</h1>
+      <h1 class="text-center"> {{$t('test')}}</h1>
       </div>
   </div>
 </template>
-
 <script>
-export default {}
+export default {
+  head :{
+    title:'Amsterdam Apothecary Home'
+  }
+}
 </script>
 
 <style>
