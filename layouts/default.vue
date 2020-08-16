@@ -7,8 +7,9 @@
       crossorigin="anonymous"
     />
 
-    <div v-show="!isLoading">
+    <div v-show="!isLoading" class="layout">
       <Header></Header>
+      <Navbar/>
       <Nuxt />
       <h6>footer</h6>
     </div>
@@ -21,8 +22,8 @@
   </div>
 </template>
 <script>
-import Header from "@/components/templates//Header.vue";
-
+import Header from "@/components/templates/Header.vue";
+import Navbar from '@/components/templates/Navbar.vue';
 export default {
   components: {
     Header
@@ -41,6 +42,9 @@ export default {
 </script>
 
 <style>
+.layout{
+      transition: 0.5s ease-in-out;
+}
 .loading-img-div {
   height: 100%;
   display: flex;

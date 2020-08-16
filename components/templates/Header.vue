@@ -18,7 +18,7 @@
             />
           </a>
         </div>
-        <div class="col-xl-4 col-lg-6 text-center text-lg-right">
+        <div class="col-xl-4 col-lg-6 text-center text-lg-right mt-2 mt-lg-0">
           <span class="social-icons">
             <span class="social-icons ">
               <a
@@ -82,9 +82,5 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 1199px) {
-  .hidden-below-xl {
-    display: none !important;
-  }
-}
+
 </style>
