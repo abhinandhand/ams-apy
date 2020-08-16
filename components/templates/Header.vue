@@ -1,7 +1,7 @@
 <template>
   <div class="header-bg">
     <div class="container">
-      <div class="row align-items-center pt-2 pb-2">
+      <div class="row align-items-center pt-3 pb-3">
         <div class="col-xl-4 col-lg-6 text-center text-lg-left fw-300">
           <span class="pr-3"
             ><i class="fa fa-phone pr-2 "></i
