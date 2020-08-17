@@ -1,5 +1,6 @@
 <template>
-  <header class="page_header with-dots with-topline justify-nav-end  ls    s-overlay affix-top"
+<div  class="page_header_wrapper ls affix-wrapper">
+  <header id="navbar-content" class="page_header with-dots with-topline justify-nav-end  ls    s-overlay affix-top"
   >
     <div class="container">
       <div class="row align-items-center justify-content-xl-center">
@@ -70,6 +71,7 @@
     <!-- header toggler -->
     <span id="bread-menu" @click="toggleSideNav" class="toggle_menu"><span></span></span>
   </header>
+  </div>
 </template>
 
 <script>
@@ -78,6 +80,12 @@ export default {
         return {
             sideNav: false
         }
+    },
+    mounted(){
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed(){
+      window.removeEventListener('scroll', this.handleScroll);
     },
     methods :{
         toggleSideNav(){
@@ -89,7 +97,20 @@ export default {
                 document.getElementById('bread-menu').classList.remove('mobile-active');
             }
             this.sideNav = !this.sideNav;
-        }
+        },
+        handleScroll (event) {
+          if( document.body.clientWidth < 1200){
+
+          let headerHeight = document.getElementById('header').clientHeight;
+          if(document.scrollingElement.scrollTop > headerHeight){
+            document.getElementById('navbar-content').classList.add('affix');
+            document.getElementById('navbar-content').classList.remove('affix-top');
+          }else{
+            document.getElementById('navbar-content').classList.remove('affix');
+            document.getElementById('navbar-content').classList.add('affix-top');
+          }
+          }
+    }
     }
 };
 </script>

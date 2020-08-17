@@ -1,5 +1,5 @@
 <template>
-  <div class="header-bg">
+  <div id="header" class="header-bg">
     <div class="container">
       <div class="row align-items-center pt-3 pb-3">
         <div class="col-xl-4 col-lg-6 text-center text-lg-left fw-300">
