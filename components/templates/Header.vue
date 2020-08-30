@@ -32,13 +32,13 @@
                 <span class=""></span>
               </a>
               <span>
-                <img
+                <img style="cursor:pointer"
                   v-if="currentLang === 'en'"
                   class="mx-3" @click="changeLanguage('jp')"
                   width="26px"
                   src="~/assets/images/icons/lang-jp.png"
               />
-              <img
+              <img style="cursor:pointer"
                   v-else @click="changeLanguage('en')"
                   class="mx-3"
                   width="26px"

@@ -28,39 +28,39 @@
                 id="menu-item-8211"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8211"
               >
-                <a href="">Home</a>
+                <a href="">{{$t('menus.home')}}</a>
               </li>
               <li
                 id="menu-item-549"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="#" >About</a
+                <a href="#" >{{$t('menus.about')}}</a
                 >
               </li>
               <li
                 id="menu-item-1897"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="">Benefits</a>
+                <a href="">{{$t('menus.benefits')}}</a>
               </li>
               <li
                 id="menu-item-3496"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="">Pricing</a>
+                <a href="">{{$t('menus.pricing')}}</a>
               </li>
               <li
                 id="menu-item-3190"
                 class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3190"
               >
-                <a href="">Lab</a>
+                <a href="">{{$t('menus.lab')}}</a>
               </li>
               <li
                 id="menu-item-1899"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1899"
               >
                 <a href=""
-                  >Contact Us</a
+                  >{{$t('menus.contact')}}</a
                 >
               </li>
             </ul>
@@ -99,7 +99,7 @@ export default {
             this.sideNav = !this.sideNav;
         },
         handleScroll (event) {
-          if( document.body.clientWidth < 1200){
+          
 
           let headerHeight = document.getElementById('header').clientHeight;
           if(document.scrollingElement.scrollTop > headerHeight){
@@ -109,7 +109,7 @@ export default {
             document.getElementById('navbar-content').classList.remove('affix');
             document.getElementById('navbar-content').classList.add('affix-top');
           }
-          }
+          
     }
     }
 };

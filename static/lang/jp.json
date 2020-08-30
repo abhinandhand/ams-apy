@@ -1,4 +1,19 @@
 {
-    "title":"",
-    "test":"レクリエーション＆メディカルマリファナ"
+    "title": "Amsterdam apothecary",
+    "family-business":"家族が所有するビジネス",
+    "medical-cannabis":"薬用 大麻",
+    "we-are-proud":"私たちは、数少ない独立系ライセンス生産者の一人であることを誇りに思っています。",
+    "buy-now":"今すぐ購入",
+    "benefits":"メリット",
+    "test-labs":"テストラボ",
+    "product-manu":"製品製造",
+    "highest-quality":"最高額の医療用大麻",
+    "menus":{
+        "home":"ホーム",
+        "about":"について",
+        "benefits":"メリット",
+        "pricing":"価格設定",
+        "lab":"研究室",
+        "contact":"お問い合わせ"
+    }
 }

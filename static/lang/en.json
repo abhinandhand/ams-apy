@@ -1,4 +1,19 @@
 {
     "title": "Amsterdam apothecary",
-    "test":"Recreational & Medical Marijuana"
+    "family-business":"FAMILY OWNED BUSINESS",
+    "medical-cannabis":"Medicinal Cannabis",
+    "we-are-proud":"We’re proud to be one of only a few independent licensed producers",
+    "buy-now":"Buy Now",
+    "benefits":"Benefits",
+    "test-labs":"Testing Labs",
+    "product-manu":"Product Manufacturing",
+    "highest-quality":"Highest Medical Marijuana",
+    "menus":{
+        "home":"Home",
+        "about":"About",
+        "benefits":"Benefits",
+        "pricing":"Pricing",
+        "lab":"Lab",
+        "contact":"Contact Us"
+    }
 }
