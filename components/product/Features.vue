@@ -50,12 +50,10 @@ export default {
     },
     methods:{
         setConatinerHeight(){
-            console.log(this.$refs.featureContent.clientHeight);
             document.getElementById('feature-container').style.height = this.getHeight(this.$refs.featureContent)+'px';
             //document.getElementById('feature-container').style.height = this.$refs.featureContent.offsetHeight+'px';
         },
         getHeight(element){
-        console.log(element)
         element.style.visibility = "hidden";
         document.body.appendChild(element);
         var height = element.offsetHeight + 0;

@@ -28,7 +28,7 @@
                 <span class=""></span>
               </a>
 
-              <a href="" class="fa fa-whatsapp mx-3">
+              <a href="https://wa.me/+31643851275" class="fa fa-whatsapp mx-3">
                 <span class=""></span>
               </a>
               <span>
