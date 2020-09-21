@@ -69,7 +69,7 @@ export default {};
   background-repeat: no-repeat;
 }
 .slide-color {
-  background-color: rgba(20, 29, 40, 0.7);
+  background-color: rgba(20, 29, 40, 0.65);
   background-image: none;
   position: absolute;
   height: 100%;

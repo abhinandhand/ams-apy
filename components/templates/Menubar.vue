@@ -34,14 +34,14 @@
                 id="menu-item-549"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="#" >{{$t('menus.about')}}</a
+                <a style="cursor:pointer" @click="toggleSideNav" v-scroll-to="'#about-el'">{{$t('menus.about')}}</a
                 >
               </li>
               <li
                 id="menu-item-1897"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="">{{$t('menus.benefits')}}</a>
+                <a style="cursor:pointer"  @click="toggleSideNav" v-scroll-to="'#benefits-el'">{{$t('menus.benefits')}}</a>
               </li>
               <li
                 id="menu-item-3496"
@@ -59,7 +59,7 @@
                 id="menu-item-1899"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1899"
               >
-                <a href=""
+                <a style="cursor:pointer"  href=""
                   >{{$t('menus.contact')}}</a
                 >
               </li>

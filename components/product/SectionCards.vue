@@ -3,7 +3,7 @@
 <div class="container cards-container">
       <div class="row align-items-center">
       <div class="cards-item cards-item-margin col-md-4 col-sm-12 text-center">
-          <div>
+          <div v-scroll-to="'#about-el'">
               <picture>
                   <source srcset="~/assets/images/icons/manufact-sm.jpg" media="(min-width: 992px)">
                   <source srcset="~/assets/images/icons/manufact-lg.jpg" media="(min-width: 768px)">
@@ -14,7 +14,7 @@
                 </div>
           </div>
       </div>
-      <div class="cards-item cards-item-margin col-md-4 col-sm-12 text-center">
+      <div v-scroll-to="'#benefits-el'" class="cards-item cards-item-margin col-md-4 col-sm-12 text-center">
           <picture>
                   <source srcset="~/assets/images/icons/health-sm.png" media="(min-width: 992px)">
                   <source srcset="~/assets/images/icons/health-lg.jpg" media="(min-width: 768px)">
@@ -48,7 +48,7 @@ export default {};
     padding: 60px 15px;
     background-color: rgba(238, 240, 242, 1);
     @media (min-width: 992px){
-    padding: 0px 15px 60px;
+    padding: 0px 15px 150px;
     }
     @media (max-width: 767px){
     padding: 60px 0px;
