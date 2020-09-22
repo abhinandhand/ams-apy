@@ -59,7 +59,7 @@
                 id="menu-item-1899"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1899"
               >
-                <a style="cursor:pointer"  href=""
+                <a style="cursor:pointer" @click="toggleSideNav" v-scroll-to="'#contacts-el'"  
                   >{{$t('menus.contact')}}</a
                 >
               </li>

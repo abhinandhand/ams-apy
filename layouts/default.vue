@@ -11,7 +11,7 @@
       <Header></Header>
       <Menubar/>
       <Nuxt />
-      <h6>footer</h6>
+      <Footer/>
     </div>
     
     <div v-show="isLoading" style="height:100vh">
@@ -23,6 +23,7 @@
 </template>
 <script>
 import Header from "@/components/templates/Header.vue";
+import Footer from '@/components/templates/Footer.vue';
 import Menubar from '@/components/templates/Menubar.vue';
 export default {
   components: {
