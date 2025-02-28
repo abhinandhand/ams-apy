@@ -28,7 +28,8 @@ import Menubar from '@/components/templates/Menubar.vue';
 export default {
   components: {
     Header,
-    Menubar
+    Menubar,
+    Footer
   },
   data() {
     return {

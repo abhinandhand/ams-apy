@@ -6,7 +6,7 @@
       <div class="row align-items-center justify-content-xl-center">
         <div class="col-xl-2 col-md-7 col-10 hidden-above-xl">
           <a
-            href=""
+            href="javascript:void(0)"
             rel="home"
             class="logo logo_image_only"
           >
@@ -47,13 +47,13 @@
                 id="menu-item-3496"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3496"
               >
-                <a href="">{{$t('menus.pricing')}}</a>
+              <a href="javascript:void(0)">{{$t('menus.pricing')}}</a>
               </li>
               <li
                 id="menu-item-3190"
                 class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3190"
               >
-                <a href="">{{$t('menus.lab')}}</a>
+              <a href="javascript:void(0)">{{$t('menus.lab')}}</a>
               </li>
               <li
                 id="menu-item-1899"

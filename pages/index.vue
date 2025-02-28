@@ -21,7 +21,10 @@ export default {
 components:{
   ProductSlides,
   SectionCards,
-  About
+  About,
+  Benefits,
+  Features,
+  Gallery
 },
   head :{
     title:'Amsterdam Apothecary Home'
