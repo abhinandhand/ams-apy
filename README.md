@@ -18,3 +18,29 @@ Welcome to the **Amsterdam Apothecary E-Commerce Website**! This sophisticated o
 ### 🎯 Purpose
 This project highlights my ability to develop comprehensive e-commerce solutions that meet client needs and adhere to legal standards. Explore the website to see how it can enhance the CBD shopping experience for customers in Amsterdam and Japan.
 
+
+
+
+```
+
+# ams-apy
+
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+```
