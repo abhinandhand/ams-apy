@@ -1,5 +1,7 @@
 # 🌿 Amsterdam Apothecary E-Commerce Website
 
+### 🌐 [Demo](https://amsterdam-apothecary-preview.netlify.app/) 
+
 ### 🌟 Project Overview
 Welcome to the **Amsterdam Apothecary E-Commerce Website**! This sophisticated online retail platform is designed for one of my clients to sell CBD products in the Amsterdam market. The website provides an appealing and user-friendly interface for customers who seek the benefits of CBD products. It ensures that purchasing legalized CBD products is just a click away, catering to customers in both Japan and Amsterdam.
 
